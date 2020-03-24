@@ -26,7 +26,7 @@ public class string {
         char result[] = new char[a.length];
         int i=0,k=0;
 
-        if(flag[i]=0);
+
 
     }
 
