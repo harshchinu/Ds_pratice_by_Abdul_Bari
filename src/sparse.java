@@ -3,18 +3,32 @@ import java.util.Scanner;
 public class sparse {
 
 
-    static  int[][] create(){
-
-        System.out.println("Enter the size of n*n matrices");
+    static  int[][] create(int n,int m){
         Scanner s= new Scanner(System.in);
-        int a[][] = new int[s.nextInt()][s.nextInt()];
 
-        System.out.println("Enter values of matrices");
+        int a[][] = new int[n][m];
 
-        for(int i=0;i<a.length;i++){
-            for(int j=0;j<a.length;j++){
-                a[i][j]=s.nextInt();
+        int i=0,j=0;
+        while(i<n && j<m){
+            a[s.nextInt()][s.nextInt()]=s.nextInt();
+            i++;j++;
+        }
+
+        /*for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                a[s.nextInt()][s.nextInt()]=s.nextInt();
             }
+        }*/
+        return a;
+    }
+
+
+    static  int[][] display(int a[][]){
+       for(int i=0;i<a.length;i++){
+            for(int j=0;j<a[0].length;j++){
+                System.out.print(a[i][j]+" ");
+            }
+            System.out.println();
         }
         return a;
     }
@@ -31,10 +45,13 @@ public class sparse {
         
 
     }
+
+
     public static void main(String[] args) {
-        int a[][]=create();
+        int a[][]=create(4,5);
+        display(a);
         int element=0;
-        sparsetablerepresent(a,element);
+       // sparsetablerepresent(a,element);
 
     }
 
