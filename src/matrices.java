@@ -78,7 +78,7 @@ public class matrices {
 
       isitdiagonal(a);
     int b[][] = new int[5][5];
-    ///createlowertriangle(b);
+    createlowertriangle(b);
     //display(b);
     //isitlowertrianglular(b);
     }
