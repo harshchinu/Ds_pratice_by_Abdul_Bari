@@ -1,3 +1,5 @@
+package Old_practices;
+
 public class binarysearch {
     static int binarys(int l,int h,int a[],int key){
 

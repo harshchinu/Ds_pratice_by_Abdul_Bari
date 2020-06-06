@@ -1,5 +1,4 @@
-import java.util.LinkedList;
-import java.util.Queue;
+package Old_practices;
 
 public class Queuepratices {
     String data;

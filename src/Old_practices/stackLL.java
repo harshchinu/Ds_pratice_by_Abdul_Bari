@@ -1,3 +1,5 @@
+package Old_practices;
+
 public class stackLL {
     stackLL next,head;
     char data;

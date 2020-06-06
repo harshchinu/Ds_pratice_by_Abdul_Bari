@@ -1,3 +1,5 @@
+package Old_practices;
+
 public class stack {
 
     int a[] = new int[4],top=-1;

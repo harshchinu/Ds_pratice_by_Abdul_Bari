@@ -1,3 +1,5 @@
+package Old_practices;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;

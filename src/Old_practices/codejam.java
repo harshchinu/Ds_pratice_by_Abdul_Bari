@@ -1,3 +1,5 @@
+package Old_practices;
+
 import java.util.*;
 
 // Java program to pritn Latin Square

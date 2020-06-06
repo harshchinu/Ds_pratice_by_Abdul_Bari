@@ -1,3 +1,5 @@
+package Old_practices;
+
 public class Queue {
 
     int a[]=new int [5];

@@ -1,3 +1,5 @@
+package Old_practices;
+
 public class Stringpraticles {
 
     void isUnique(String a){

@@ -1,3 +1,5 @@
+package Old_practices;
+
 import java.util.Scanner;
 
 public class sparse {

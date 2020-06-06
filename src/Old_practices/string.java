@@ -1,3 +1,5 @@
+package Old_practices;
+
 public class string {
 
     static void palindrome(char a[],char b[]){

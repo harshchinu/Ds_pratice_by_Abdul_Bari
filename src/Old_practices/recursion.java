@@ -1,3 +1,5 @@
+package Old_practices;
+
 import javax.annotation.processing.SupportedSourceVersion;
 import java.util.Scanner;
 
